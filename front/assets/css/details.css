@@ -1,0 +1,29 @@
+a { text-decoration: none; }
+
+div#main {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+div#main div.details {
+    display: table;
+    margin: 0 auto;
+}
+
+div#main div.details figure img { width: 60%; }
+
+div#main table.details { margin: 0 auto; }
+
+div#main table.details tr { height: 38px; }
+
+div#main table.details td { padding: 10px 20px; }
+
+div#main table.details td:first-child { text-align: left; }
+
+div#main div.details a {
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 60px;
+}
